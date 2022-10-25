@@ -1,0 +1,35 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "belajar tipescript dari nol sampai paham, langkah demi langkah",
+  "main": "index.js",
+  "scripts": {
+    "ts": "rm -rf build/ && tsc  ",
+    "dev": "nodemon ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilhamadi77/Learn-Typescript.git"
+  },
+  "keywords": [
+    "data",
+    "primitif",
+    "enum",
+    "array",
+    "object",
+    "function",
+    "class",
+    "etc"
+  ],
+  "author": "ilham adi i",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilhamadi77/Learn-Typescript/issues"
+  },
+  "homepage": "https://github.com/ilhamadi77/Learn-Typescript#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  }
+}
