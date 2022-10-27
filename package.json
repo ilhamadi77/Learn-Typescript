@@ -1,35 +1,20 @@
 {
-  "name": "typescript",
-  "version": "1.0.0",
-  "description": "belajar tipescript dari nol sampai paham, langkah demi langkah",
-  "main": "index.js",
   "scripts": {
-    "ts": "rm -rf build/ && tsc  ",
-    "dev": "nodemon ./build/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "lint": "prettier --check \"src/**/*.{ts,js}\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ilhamadi77/Learn-Typescript.git"
+  "dependencies": {
+    "canvas-confetti": "^1.2.0"
   },
-  "keywords": [
-    "data",
-    "primitif",
-    "enum",
-    "array",
-    "object",
-    "function",
-    "class",
-    "etc"
-  ],
-  "author": "ilham adi i",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ilhamadi77/Learn-Typescript/issues"
-  },
-  "homepage": "https://github.com/ilhamadi77/Learn-Typescript#readme",
   "devDependencies": {
-    "nodemon": "^2.0.20",
-    "typescript": "^4.8.4"
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/canvas-confetti": "^1.0.0",
+    "@types/snowpack-env": "^2.3.3",
+    "prettier": "^2.2.1",
+    "snowpack": "^3.3.7",
+    "typescript": "^4.2.4"
   }
 }
