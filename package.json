@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "ts": "rm -rf build/ && tsc  ",
-    "dev": "nodemon ./build/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./build/index.js"
   },
   "repository": {
     "type": "git",
